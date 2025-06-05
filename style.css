@@ -58,6 +58,7 @@ h1 {
 .seccion__dos {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .imagen__seccion__dos {
@@ -112,6 +113,7 @@ h1 {
 .proyectos {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .proyecto {
