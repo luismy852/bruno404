@@ -324,6 +324,10 @@ footer {
         width: 90%;
     }
 
+    .seccion__dos__texto{
+        margin-left: 0;
+    }
+
     .boton__accion {
         width: 80%;
     }
