@@ -25,27 +25,26 @@
 ✅ Botón de contacto directo por WhatsApp</p>
 
 <!-- =====================================================================
-          ///////////   Este es su botón de Pago Abierto ePayco   ///////////
+          ///////////   Este es su botón de Botón de pago ePayco   ///////////
          ===================================================================== -->
-        <form class="boton__pago" id="frm_ePaycoCheckoutOpen" 
-              name="frm_ePaycoCheckoutOpen" 
-              method="POST" 
-              action="https://secure.payco.co/checkoutopen.php">
-            
-              <input name="p_cust_id_cliente" type="hidden" value="1553814"/>
-              <input name="p_key" type="hidden" value="4500a8b5619a1e410cbff0c240d5e5be73cdcd03"/>
-              <input name="p_id_factura" type="hidden" value=""/>
-              <input name="p_description" type="hidden" value="Landing page"/>
-              <input name="p_detalle" type="hidden" value="✅ Creación de landing page profesional
-✅ Hosting incluido el primer mes
-✅ Botón de contacto directo por WhatsApp"/>
-              <input name="p_referencia" type="hidden" value=""/>
-              <input name="p_test_request" type="hidden" value="false"/>
-              <input name="p_url_respuesta" type="hidden" value=""/>
-              <input name="p_url_confirmacion" type="hidden" value=""/>
-              <input type="image" id="imagen" src="https://multimedia.epayco.co/dashboard/btns/btn2.png" alt=""/>
-              <input type="hidden" id="idboton" name="idboton" value="9ff897c3-88fa-4b2a-8e94-fb7425525770"/>
-                                
+        <form class="boton__pago">
+            <script src='https://checkout.epayco.co/checkout.js'
+                data-epayco-key='060fcdb8d045ae675f29c8d05bb46fad' 
+                class='epayco-button' 
+                data-epayco-amount='150000' 
+                data-epayco-tax='0.00'  
+                data-epayco-tax-ico='0.00'               
+                data-epayco-tax-base='150000'
+                data-epayco-name='Landing Page' 
+                data-epayco-description='Landing Page' 
+                data-epayco-currency='cop'    
+                data-epayco-country='CO' 
+                data-epayco-test='false' 
+                data-epayco-external='true' 
+                data-epayco-response='https://bruno404.com/confirmacion.html'  
+                data-epayco-confirmation='' 
+                data-epayco-button='https://multimedia.epayco.co/dashboard/btns/btn2.png'> 
+            </script> 
         </form> <!-- ================================================================== -->
     </main>
         <footer>
