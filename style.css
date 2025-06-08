@@ -252,6 +252,32 @@ footer {
     padding-left: 50%;
 }
 
+
+
+.descripcion__pago{
+        text-align: center;
+    }
+
+.boton__pago{
+        display: flex;
+        justify-content: center;
+    }
+
+
+.contenedor__confirmacion{
+    display: flex;
+    justify-content: center;
+}
+
+.texto__confirmacion{
+    text-align: center;
+}
+
+.foto__finalizo{
+    width: 50%;
+    height: auto;
+}
+
 @media (max-width:1200px) {
 
     header {

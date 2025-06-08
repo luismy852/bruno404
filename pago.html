@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bruno 404</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imagenes/logo.png" type="image/x-icon">
+</head>
+<body>
+        <header>
+        <img id="inicio" class="imagen__logo" src="imagenes/logohorizontal.png" alt="">
+        <a href="#inicio">Inicio</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#proyectos">Proyectos</a>
+    </header>
+    <main>
+        <hr>
+        <h1>
+            Completa tu pago de forma segura
+        </h1>
+        <h2 class="descripcion__pago">Landing Page</h2>
+        <p class="descripcion__pago">✅ Creación de landing page profesional <br>
+✅ Hosting incluido el primer mes <br>
+✅ Botón de contacto directo por WhatsApp</p>
+
+<!-- =====================================================================
+          ///////////   Este es su botón de Pago Abierto ePayco   ///////////
+         ===================================================================== -->
+        <form class="boton__pago" id="frm_ePaycoCheckoutOpen" 
+              name="frm_ePaycoCheckoutOpen" 
+              method="POST" 
+              action="https://secure.payco.co/checkoutopen.php">
+            
+              <input name="p_cust_id_cliente" type="hidden" value="1553814"/>
+              <input name="p_key" type="hidden" value="4500a8b5619a1e410cbff0c240d5e5be73cdcd03"/>
+              <input name="p_id_factura" type="hidden" value=""/>
+              <input name="p_description" type="hidden" value="Landing page"/>
+              <input name="p_detalle" type="hidden" value="✅ Creación de landing page profesional
+✅ Hosting incluido el primer mes
+✅ Botón de contacto directo por WhatsApp"/>
+              <input name="p_referencia" type="hidden" value=""/>
+              <input name="p_test_request" type="hidden" value="false"/>
+              <input name="p_url_respuesta" type="hidden" value=""/>
+              <input name="p_url_confirmacion" type="hidden" value=""/>
+              <input type="image" id="imagen" src="https://multimedia.epayco.co/dashboard/btns/btn2.png" alt=""/>
+              <input type="hidden" id="idboton" name="idboton" value="9ff897c3-88fa-4b2a-8e94-fb7425525770"/>
+                                
+        </form> <!-- ================================================================== -->
+    </main>
+        <footer>
+
+        <div class="footer__izquierda">
+            <a href="https://www.instagram.com/bruno404dev/" class="footer__redes">
+                <img class="footer__img" src="imagenes/instagram.png" alt="">
+                <p class="footer__text">Instagram</p>
+            </a>
+
+            <a class="footer__redes">
+                <img class="footer__img" src="imagenes/you.png" alt="">
+                <p class="footer__text">Youtube</p>
+            </a>
+
+            <a class="footer__redes">
+                <img class="footer__img" src="imagenes/tik-tok.png" alt="">
+                <p class="footer__text">Tiktok</p>
+            </a>
+
+        </div>
+
+        <div class="footer__derecha">
+            <p>info@bruno404.com</p>
+        </div>
+    </footer>
+</body>
+</html>
