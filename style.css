@@ -702,4 +702,16 @@ button {
         width: 95vw;
     }
 
+    .opcion {
+        width: 90%;
+        height: auto;
+        margin-left: 0;
+        margin-right: 0;
+
+        a {
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+    }
+
 }
