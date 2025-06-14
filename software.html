@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desarrollamos software a tu medida</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imagenes/logo.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img id="inicio" class="imagen__logo" src="imagenes/logohorizontal.png" alt=""></a>
+
+        <nav class="menu">
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li class="dropdown">
+                    <a href="#servicios">Servicios</a>
+                    <ul class="submenu">
+                        <li class="submenus"><a href="paginas.html">Página Web</a></li>
+                        <li class="submenus"><a href="software.html">Software a la medida</a></li>
+                        <li class="submenus"><a href="tiendas.html">Tienda Online</a></li>
+                    </ul>
+                </li>
+                <li><a href="index.html#proyectos">Proyectos</a></li>
+                <li><a href="index.html#nosotros">Sobre nosotros</a></li>
+                <li><a href="index.html#frecuentes">FAQ</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+        <hr>
+        <h1 class="h1__paginas">Desarrollamos software a tu medida</h1>
+        <p class="parrafo__paginas1">En Bruno 404 no hacemos software genérico. Hacemos soluciones que se ajustan a ti
+            como un buen guante (o como
+            un buen perro fiel). Desde control de inventario hasta sistemas de reservas, si lo imaginas, lo podemos
+            programar.</p>
+
+        <h2 class="titulo__formulario">Cuentanos tu idea</h2>
+
+        <div class="formulario">
+            <form action="https://formsubmit.co/info@bruno404.com" method="POST">
+                <div class="formulario__grupo1">
+                    <label class="proyecto__form" for="Nombre">Nombre</label>
+                    <input class="forma" name="nombre" type="text" placeholder="Ingresa tu nombre" required>
+                </div>
+                <div class="formulario__grupo1">
+                    <label class="proyecto__form" for="emial">Correo</label>
+                    <input class="forma" name="email" type="email" placeholder="Ingresa tu Email" required>
+                </div>
+
+                <div class="formulario__grupo1">
+                    <label class="proyecto__form" for="idea">Proyecto</label>
+                    <textarea class="forma2" name="proyecto" type="text" placeholder="Describe aquí tu proyecto o idea"
+                        required></textarea>
+                </div>
+
+                <div class="formulario__grupo">
+                    <button>Enviar</button>
+                </div>
+
+                <input type="hidden" name="_next" value="https://bruno404.com/">
+                <input type="hidden" name="_captcha" value="false">
+            </form>
+
+        </div>
+        <hr>
+    </main>
+    <footer>
+        <p>Bruno 404 <br>
+            Sin errores, ni mordidas</p>
+
+        <div class="enlaces">
+            <a href="https://www.facebook.com/profile.php?id=61576915448384">
+                <img src="imagenes/facebook-logo.svg" alt="">
+            </a>
+            <a href="http://wa.link/aa8who">
+                <img src="imagenes/whatsapp-logo.svg" alt="">
+            </a>
+            <a href="https://www.instagram.com/bruno404dev/">
+                <img src="imagenes/instagram-logo.svg" alt="">
+            </a>
+            <a href="mailto:info&#64bruno404.com">
+                <img src="imagenes/at.svg" alt="Corre electronico">
+            </a>
+        </div>
+
+    </footer>
+</body>
+
+</html>

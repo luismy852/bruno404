@@ -2,47 +2,66 @@
 <html lang="es">
 
 <head>
-        <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-NJ5NR27LY9"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-NJ5NR27LY9"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-  gtag('config', 'G-NJ5NR27LY9');
-</script>
-<!-- Meta Pixel Code -->
-<script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '1835569890343901');
-fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=1835569890343901&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Meta Pixel Code -->
+        gtag('config', 'G-NJ5NR27LY9');
+    </script>
+    <!-- Meta Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1835569890343901');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=1835569890343901&ev=PageView&noscript=1" /></noscript>
+    <!-- End Meta Pixel Code -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bruno 404</title>
-    <meta name="description" content="Bruno404 ofrece un servicio rápido y fácil para crear landing pages personalizadas que convierten visitantes en clientes. Optimiza tu presencia online con diseños profesionales y adaptados a tus necesidades.">
+    <title>Páginas web profesionales con hosting y dominio | Bruno 404</title>
+    <meta name="description"
+        content="Bruno404 ofrece un servicio rápido y fácil para crear landing pages personalizadas que convierten visitantes en clientes. Optimiza tu presencia online con diseños profesionales y adaptados a tus necesidades.">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
     <link rel="shortcut icon" href="imagenes/logo.png" type="image/x-icon">
 
 </head>
 
 <body>
     <header>
-        <img id="inicio" class="imagen__logo" src="imagenes/logohorizontal.png" alt="">
-        <a href="#inicio">Inicio</a>
-        <a href="#servicios">Servicios</a>
-        <a href="#proyectos">Proyectos</a>
+        <a href="#"><img id="inicio" class="imagen__logo" src="imagenes/logohorizontal.png" alt=""></a>
+
+        <nav class="menu">
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li class="dropdown">
+                    <a href="#servicios">Servicios</a>
+                    <ul class="submenu">
+                        <li class="submenus"><a href="paginas.html">Página Web</a></li>
+                        <li class="submenus"><a href="software.html">Software a la medida</a></li>
+                        <li class="submenus"><a href="tiendas.html">Tienda Online</a></li>
+                    </ul>
+                </li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#nosotros">Sobre nosotros</a></li>
+                <li><a href="#frecuentes">FAQ</a></li>
+            </ul>
+        </nav>
+
     </header>
     <main>
         <hr>
@@ -59,30 +78,25 @@ src="https://www.facebook.com/tr?id=1835569890343901&ev=PageView&noscript=1"
         <hr>
 
         <h2 class="servicios" id="servicios">Servicios</h2>
-        <h3 class="titulo__seccion__dos">Landing Page Profesional</h3>
 
-        <div class="seccion__dos">
-            <img class="imagen__seccion__dos" src="imagenes/11020291.jpg" alt="">
-            <div class="seccion__dos__texto">
-                <p class="seccion__dos__parrafo">🎨 Diseño personalizado según tu marca y necesidades <br>
-                    📱 Optimizado para celulares y tablets <br>
-                    🔗 Sección para tus redes sociales conectadas <br>
-                    ☁️ Primer mes de hosting totalmente gratis <br>
-                    ⏱️ Entrega rápida: de 2 a 5 días hábiles <br>
-                    📩 Botón de acción a WhatsApp o formulario de contacto</p>
 
-                <a class="enlace__servicios" href="http://wa.link/aa8who">
-                    <div class="boton__servicios">
-                        <p class="precio">Precio: $300.000</p>
-                        <p class="renovacion">Renovación mensual $25.000</p>
-                    </div>
-                </a>
-
-            </div>
+        <div data-aos="fade-up" class="seccion__dos">
+            <a href="paginas.html" class="servicio">
+                <img src="imagenes/paginas.png" alt="">
+                <p>Paginas Web</p>
+            </a>
+            <a href="software.html" class="servicio">
+                <img src="imagenes/a la medida.png" alt="">
+                <p>Software a la medida</p>
+            </a>
+            <a href="tiendas.html" class="servicio">
+                <img src="imagenes/tienda.png" alt="">
+                <p>Tienda Online</p>
+            </a>
         </div>
 
         <h2 id="proyectos" class="servicios">Proyectos</h2>
-        <div class="proyectos">
+        <div data-aos="fade-up" class="proyectos">
             <div class="proyecto">
                 <img class="proyecto__imagen" src="imagenes/dinodev.png" alt="">
                 <p class="texto__proyecto">🦖 <strong> Proyecto: Página de presentación para marca de desarrollo web
@@ -98,11 +112,30 @@ src="https://www.facebook.com/tr?id=1835569890343901&ev=PageView&noscript=1"
             </div>
         </div>
 
+        <hr>
+
+        <h2 id="nosotros" class="titulo__nosotros">Sobre nosotros</h2>
+
+        <div data-aos="fade-up" class="sobre__nosotros">
+            <img class="imagen__nosotros" src="imagenes/SOBRE NOSOTROS.png" alt="">
+            <p class="texto__nosotros">Hola, soy Luis Miguel, la persona detrás de Bruno 404. Este proyecto nació con la
+                idea de ayudar a
+                negocios, emprendedores y marcas personales a tener presencia digital con estilo, claridad y propósito.
+                <br> <br>
+
+                Trabajo de forma independiente, lo que significa que estarás tratando directamente conmigo: sin
+                intermediarios, sin procesos enredados y con total atención a los detalles. <br> <br>
+
+                ¿Y Bruno? Es mi perro, mi compañero y la inspiración detrás del nombre. Él me recuerda que todo se puede
+                hacer mejor con paciencia, constancia y buena actitud.
+            </p>
+        </div>
+
 
 
         <hr>
 
-        <div class="accion">
+        <div data-aos="fade-up" class="accion">
             <h2 class="servicios">¿Listo para tener tu página web?</h2>
             <p class="incluye">🟢 Incluye diseño + hosting + botón a WhatsApp</p>
             <a class="boton__accion" href="http://wa.link/aa8who">
@@ -114,34 +147,76 @@ src="https://www.facebook.com/tr?id=1835569890343901&ev=PageView&noscript=1"
             </a>
         </div>
 
+        <hr>
+
+        <h2 id="frecuentes" class="titulo__frecuentes">Preguntas frecuentes</h2>
+
+        <div data-aos="fade-up">
+            <details>
+                <summary>¿Qué necesito para empezar?</summary>
+                <p class="contenido">Solo necesitas contarme qué tipo de página necesitas y qué deseas incluir. Yo te
+                    ayudo
+                    con el resto. Si ya tienes un logo, textos o imágenes, también los puedes enviar. Una vez definido
+                    el
+                    alcance, se realiza el primer pago y comenzamos el desarrollo.</p>
+            </details>
+            <details>
+                <summary>¿Qué medios de pago aceptan?</summary>
+                <p class="contenido">Puedes pagar con transferencia bancaria, Nequi o Daviplata. Si lo necesitas,
+                    también te
+                    puedo generar un enlace de Mercado Pago.</p>
+            </details>
+            <details>
+                <summary>¿Entregas factura electrónica?</summary>
+                <p class="contenido">Sí, cuento con facturación electrónica autorizada por la DIAN. Si la necesitas,
+                    solo
+                    debes indicarlo al momento de hacer el pago.</p>
+            </details>
+            <details>
+                <summary>¿Mi página funcionará en celulares?</summary>
+                <p class="contenido">Sí, todas las páginas que desarrollo son 100% responsivas, lo que significa que se
+                    adaptan automáticamente a celulares, tabletas y computadores. Tu sitio se verá bien y funcionará
+                    correctamente en cualquier dispositivo.</p>
+            </details>
+            <details>
+                <summary>¿Qué es el software a la medida?</summary>
+                <p class="contenido">Es una solución desarrollada específicamente para ti, adaptada a los procesos de tu
+                    negocio, como gestión de inventario, ventas, reportes, clientes, etc. El sistema se construye desde
+                    cero
+                    para resolver tus necesidades puntuales.</p>
+            </details>
+        </div>
+
+
+
+        <hr>
     </main>
 
     <footer>
+        <p>Bruno 404 <br>
+            Sin errores, ni mordidas</p>
 
-        <div class="footer__izquierda">
-            <a href="https://www.instagram.com/bruno404dev/" class="footer__redes">
-                <img class="footer__img" src="imagenes/instagram.png" alt="">
-                <p class="footer__text">Instagram</p>
+        <div class="enlaces">
+            <a href="https://www.facebook.com/profile.php?id=61576915448384">
+                <img src="imagenes/facebook-logo.svg" alt="">
             </a>
-
-            <a class="footer__redes">
-                <img class="footer__img" src="imagenes/you.png" alt="">
-                <p class="footer__text">Youtube</p>
+            <a href="http://wa.link/aa8who">
+                <img src="imagenes/whatsapp-logo.svg" alt="">
             </a>
-
-            <a class="footer__redes">
-                <img class="footer__img" src="imagenes/tik-tok.png" alt="">
-                <p class="footer__text">Tiktok</p>
+            <a href="https://www.instagram.com/bruno404dev/">
+                <img src="imagenes/instagram-logo.svg" alt="">
             </a>
-
+            <a href="mailto:info@bruno404.com?cc=&bcc=&subject=&body=">
+                <img src="imagenes/at.svg" alt="info@bruno404.com">
+            </a>
         </div>
 
-        <div class="footer__derecha">
-            <p>info@bruno404.com</p>
-        </div>
     </footer>
 
-
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
